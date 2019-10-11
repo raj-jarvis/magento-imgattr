@@ -1,0 +1,26 @@
+{
+    "name": "raj-jarvis/magento-imgattr",
+    "description": "Image Attribute Plugin",
+    "license": [
+		"OSL-3.0",
+		"AFL-3.0"
+	],
+    "authors": [
+        {
+            "name": "Raj",
+			"email": "rajpanchal377@gmail.com"
+        }
+    ],
+    "require": {
+		"php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+	},
+	"version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Mycustom\\Cateimgattr\\": ""
+        },
+		"files": [
+            "registration.php"
+        ]
+    }
+}
